@@ -1,0 +1,50 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background-color:#AFF7F0;
+    width: 100vw;
+    padding: 2rem;
+    margin: 3rem 0 3rem 0;
+}
+
+header {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    color: #5E2E91;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.form-input {
+    padding: .6rem 1rem;
+    border-radius: .3rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    text-align: center;
+    background-color: #fffff2;
+}
+
+.btn {
+    font-size: 1.25rem;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+    color: #FEF0F0;
+    background-color: #60D;
+}
+
+.border {
+    border: .11rem solid #60DE55;
+}
