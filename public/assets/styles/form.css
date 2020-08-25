@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400%;
+    animation: gradientBG 15s ease infinite;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+header {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    color: white;
+    text-align: left;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.form-input {
+    padding: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    text-align: left;
+    background-color: #fffff2;
+}
+
+.btn {
+    font-size: 1.25rem;
+    padding: .5rem 1rem;
+    color: #FEF0F0;
+    background-color: #60D;
+}
+
+.border {
+    border: .11rem solid black;
+}
+
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

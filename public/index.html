@@ -3,26 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/public/assets/styles/theme.css">
-  <link rel="stylesheet" href="/wip/form/form.css">
+  <link rel="stylesheet" href="/assets/styles/theme.css">
+  <link rel="stylesheet" href="/assets/styles/form.css">
+  <link rel="stylesheet" href="/assets/styles/navBar.css">
+  <link rel="stylesheet" href="/assets/styles/hero.css">
   <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
   <title>High and Hydrated - Official Homepage</title>
 </head>
 <body>
-  <header>
-    <h1 class="siteName">High and Hydrated</h1>
-  </header>
-  <div class="main-content">
-    <div class="content-wrapper">
-      <h3>Welcome</h3>
-      <p></p>
-    </div>
+  <nav class="nav-container">
+    <ul class="nav-items">
+        <li><a href="#">Home</a></li>
 
+        <li><a href="#">Blog</a></li>
+
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+
+  <div class="main-content">
+
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1 class="hero-header siteName">high & hydrated</h1>
+        <p>lets put some smoke in the air</p>
+      </div>
+</div>
     <div class="wrapper">
-      <div class="container">
+      <div class="container"> 
         <header>Stay In Touch?</header>
-        <!--If you're borrowing this code, change the action tag to your own url or your users will be subscribing to me. Thanks, Coop-->
-        <form data-email-list="" action="https://formsubmit.co/fcb52a083030a2fb2603211c63831567" method="POST">
+        <form data-email-list="" action="https://formsubmit.co/hahhaze@altmails.com" method="POST">
             <div class="form">
                 <input type="hidden" name="_subject" value="New submission!">
                 <input type="hidden" name="_replyto">
@@ -37,5 +48,6 @@
   <footer class="footer" onload="setDate()"> 
     <p id="footerText" class="footerText"></p>
   </footer>  
-</body>
+</body> 
+<script src="/assets/scripts/date.js"></script>
 </html>
